@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.xiaohe.hyperclick">
-
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:allowBackup="true"
-        android:icon="@android:drawable/ic_menu_info_details"
-        android:label="Hyper click">
+        android:allowBackup="false"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:label="HyperClick">
 
         <meta-data
             android:name="xposedmodule"
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="长按锁屏快捷瓷块弹出电源菜单" />
+            android:value="长按锁屏快捷键弹出电源菜单" />
         <meta-data
             android:name="xposedminversion"
             android:value="93" />
-
     </application>
 </manifest>

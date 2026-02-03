@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.xiaohe.hyperlocklittle"
+    namespace = "com.xiaohe.hyperclick"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.xiaohe.hyperlocklittle"
+        applicationId = "com.xiaohe.hyperclick"
         minSdk = 35
         targetSdk = 36
         versionCode = 1

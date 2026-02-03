@@ -16,8 +16,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // 添加下面这个仓库地址
+        maven { url = uri("https://api.xposed.info/") }
     }
 }
+
 
 rootProject.name = "HyperLocklittle"
 include(":app")

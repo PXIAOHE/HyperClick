@@ -19,3 +19,9 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+# 保持 Xposed 入口类不被混淆
+-keep class com.xiaohe.hyperclick.MainHook { *; }
+
+# 保持 Xposed API 不被混淆
+-keep class de.robv.android.xposed.** { *; }
+-dontwarn de.robv.android.xposed.**
